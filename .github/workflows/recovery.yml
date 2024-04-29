@@ -3,7 +3,7 @@ name: RECOVERY
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL:
+      RECOVERY_URL:https://download.wetransfer.com/eugv/3560da9c433856737d376949df436a7c20240429194702/63a4f9695c428d05a19fd2379dede2b51a9fd804/recovery.img?cf=y&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImRlZmF1bHQifQ.eyJleHAiOjE3MTQ0MjA2NzUsImlhdCI6MTcxNDQyMDA3NSwiZG93bmxvYWRfaWQiOiI4NmE0NGEyZi0zMTVkLTQ1NzMtODUzNS00MmE2ZmU0MTBkZDIiLCJzdG9yYWdlX3NlcnZpY2UiOiJzdG9ybSJ9.57S97izU4GankGT1UxGhM0GZa2yDxGhjzCG3uKhk62k
         description: 'RECOVERY URL'
         required: true
         default: 'https://transfer.sh/(RECOMMENDED)'
